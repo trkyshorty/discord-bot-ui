@@ -1,0 +1,22 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+$body-font-family: 'Ubuntu';
+$heading-font-family: $body-font-family;
+$font-size-root: 16px;
+
+$container-max-widths: (
+    'lg': 748px,
+    'xl': 1440px
+);
+
+@import '~vuetify/src/styles/styles.sass';
+
+$material-dark: (
+  app-bar: #28254C,
+  cards: #28254C,
+  background: #332F63,
+);
